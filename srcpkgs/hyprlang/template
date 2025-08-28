@@ -14,7 +14,7 @@ makedepends="
   hyprutils
 "
 short_desc="Official implementation library for the hypr config language"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Encoded14 <linusken@tuta.io>"
 license="LGPL-3.0-only"
 homepage="https://hyprland.org/hyprlang/index.html"
 changelog="https://github.com/hyprwm/hyprlang/releases"

@@ -8,7 +8,7 @@ hostmakedepends="
   pkgconf
 "
 short_desc="Header-only TOML config file parser and serializer for C++17"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Encoded14 <linusken@tuta.io>"
 license="MIT"
 homepage="https://marzer.github.io/tomlplusplus/"
 distfiles="https://github.com/marzer/${pkgname}/archive/refs/tags/v${version}.tar.gz"

@@ -11,7 +11,7 @@ makedepends="
   zlib-devel
 "
 short_desc="Simple, modern libpng alternative"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Encoded14 <linusken@tuta.io>"
 license="BSD-2-Clause"
 homepage="https://libspng.org/"
 distfiles="https://github.com/randy408/libspng/archive/refs/tags/v${version}.tar.gz"

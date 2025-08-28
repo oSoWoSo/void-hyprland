@@ -34,7 +34,7 @@ depends="
   xdg-desktop-portal
 "
 short_desc="Backend of xdg-desktop-portal for Hyprland"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Encoded14 <linusken@tuta.io>"
 license="BSD-3-Clause"
 homepage="https://github.com/hyprwm/xdg-desktop-portal-hyprland"
 distfiles="${homepage}/archive/refs/tags/v${version}.tar.gz"

@@ -12,7 +12,7 @@ hostmakedepends="
   pkgconf
 "
 short_desc="Extremely fast, in memory, JSON and interface library for modern C++"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Encoded14 <linusken@tuta.io>"
 license="MIT"
 homepage="https://github.com/stephenberry/glaze"
 distfiles="https://github.com/stephenberry/glaze/archive/refs/tags/v${version}.tar.gz"

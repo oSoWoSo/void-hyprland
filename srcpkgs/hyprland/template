@@ -52,7 +52,7 @@ makedepends="
   xorg-server-xwayland
 "
 short_desc="Dynamic tiling Wayland compositor that doesn't sacrifice on its looks"
-maintainer="Makrennel <makrommel@protonmail.ch>"
+maintainer="Encoded14 <linusken@tuta.io>"
 license="BSD-3-Clause"
 homepage="https://hyprland.org/"
 changelog="https://github.com/hyprwm/Hyprland/releases"
