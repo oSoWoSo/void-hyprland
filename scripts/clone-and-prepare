@@ -1,0 +1,29 @@
+#!/usr/bin/env sh
+
+COMMAND="
+  cd /work
+  git clone --depth 1 https://github.com/void-linux/void-packages.git
+
+  cd /work/$REPO_NAME
+
+  # Modify shlibs
+  sed -i '/^libhyprutils\.so\.6 hyprutils-0\.7\.1_1$/d' /work/void-packages/common/shlibs
+  cat common/shlibs >> /work/void-packages/common/shlibs
+  cp -r srcpkgs/* /work/void-packages/srcpkgs
+
+  # Remove hyprutils patch
+  rm -f /work/void-packages/srcpkgs/hyprutils/patches/*.patch || true
+
+  chown -R builder:builder /work
+
+  cd /work/void-packages
+
+  sed -i 's|./xbps-src binary-bootstrap|./xbps-src -a \"\$RESULT_NAME\" binary-bootstrap|' common/travis/prepare.sh
+
+  sudo -Eu builder common/travis/set_mirror.sh &&
+  sudo -Eu builder common/travis/prepare.sh &&
+  common/travis/fetch-xtools.sh
+"
+
+echo "Running command: $COMMAND"
+sh -c "$COMMAND"
