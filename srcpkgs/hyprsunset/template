@@ -1,6 +1,6 @@
 # Template file for 'hyprsunset'
 pkgname=hyprsunset
-version=0.3.0
+version=0.3.2
 revision=1
 build_style=cmake
 configure_args+=" --no-warn-unused-cli"
@@ -25,7 +25,7 @@ maintainer="Encoded14 <linusken@tuta.io>"
 license="BSD-3-Clause"
 homepage="https://github.com/hyprwm/hyprsunset"
 distfiles="https://github.com/hyprwm/hyprsunset/archive/refs/tags/v${version}.tar.gz"
-checksum=bf941d9d44d6ec24af69f89b3cfbddeb2714abb908e54839adbc859c2a7d1fe6
+checksum=b28648387aa4c26a0aad81323331fb9d23923626f3bc3f3d33b1b120d32d3925
 
 post_install() {
   vlicense LICENSE
