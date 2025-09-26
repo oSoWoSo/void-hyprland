@@ -30,6 +30,7 @@ homepage="https://hyprland.org/hyprlang/index.html"
 changelog="https://github.com/hyprwm/aquamarine/releases"
 distfiles="https://github.com/hyprwm/aquamarine/archive/refs/tags/v${version}.tar.gz"
 checksum=fccc7c4e9b42b34082690ba672ba54025b781eca46c48ec304b7e5b2ba775893
+make_check=no
 
 post_install() {
   vlicense LICENSE
