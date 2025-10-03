@@ -30,7 +30,7 @@ do_install() {
 }
 
 post_install() {
-  curl --fail -sOL https://raw.githubusercontent.com/zen-browser/desktop/refs/heads/stable/LICENSE
+  curl --fail -sOL https://raw.githubusercontent.com/zen-browser/desktop/refs/heads/dev/LICENSE
   vlicense LICENSE
 }
 
