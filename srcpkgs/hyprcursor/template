@@ -1,11 +1,11 @@
 # Template file for 'hyprcursor'
 pkgname=hyprcursor
 version=0.1.13
-revision=1
+revision=2
 build_style=cmake
-configure_args="--no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_BUILD_TYPE:STRING=Release"
-hostmakedepends="cairo-devel pkgconf"
-makedepends="hyprlang librsvg-devel libzip-devel tomlplusplus"
+configure_args="--no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr"
+hostmakedepends="pkg-config hyprlang tomlplusplus"
+makedepends="librsvg-devel libzip-devel cairo-devel"
 short_desc="Hyprland cursor format, library and utilities"
 maintainer="Encoded14 <linusken@tuta.io>"
 license="BSD-3-Clause"
