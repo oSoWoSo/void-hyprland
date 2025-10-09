@@ -1,12 +1,12 @@
 # Template file for 'hyprgraphics'
 pkgname=hyprgraphics
 version=0.2.0
-revision=1
+revision=2
 build_style=cmake
 configure_args="--no-warn-unused-cli -DCMAKE_BUILD_TYPE:STRING=Release -DCMAKE_INSTALL_PREFIX:PATH=/usr"
 hostmakedepends="pkg-config hyprutils libspng"
 makedepends="cairo-devel pango-devel file-devel libjpeg-turbo-devel libjxl-devel
- librsvg-devel libwebp-devel pixman-devel"
+ librsvg-devel libwebp-devel pixman-devel libheif-devel"
 short_desc="hyprland graphics resources and utilities"
 maintainer="Encoded14 <linusken@tuta.io>"
 license="BSD-3-Clause"
