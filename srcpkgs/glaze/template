@@ -13,5 +13,5 @@ distfiles="https://github.com/stephenberry/glaze/archive/refs/tags/v${version}.t
 checksum=ab585fbf4d488cd5a322faa53328384d2d03aa8fa80bc79c7f7ea5d4dacd71d3
 
 post_install() {
-    vlicense LICENSE
+	vlicense LICENSE
 }
